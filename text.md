@@ -75,7 +75,7 @@ puts " value by static method : #{A.get}"
 >
 >
 เราลองมาใช้ static meber ใน Java
-#### Java
+### Java
 ```java
         class A {
 
@@ -99,6 +99,72 @@ puts " value by static method : #{A.get}"
                 System.out.println("value by static method : " + A.get());
             }
         }
+```
+
+<details>
+  <summary>Output</summary>
+
+  > value by static method : 1 
+
+</details>
+>
+>
+
+### Python
+```python
+    class A:
+        num = 0   
+
+        @classmethod
+        def get(cls):   
+            return cls.num
+
+        def set(self): 
+            A.num = A.num + 1
+
+
+    # การใช้งาน
+    b = A()
+    b.set()  
+
+    print("value by static method :", A.get())
+
+```
+
+<details>
+  <summary>Output</summary>
+
+  > value by static method : 1 
+
+</details>
+
+
+### C
+```C
+ #include <stdio.h>
+
+
+static int num = 0;
+
+
+int get() {
+    return num;
+}
+
+// instance method b.set() → ฟังก์ชัน set()
+void set() {
+    num = num + 1;
+}
+
+int main() {
+    // object b = A.new → ใน C ไม่มี object แต่เราจำลองด้วยการเรียก set()
+    set();  
+
+    printf("value by static method : %d\n", get());
+
+    return 0;
+}
+
 ```
 
 <details>
