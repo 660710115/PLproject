@@ -238,11 +238,12 @@ int main() {
   
 
 </details>
+
 >
 > 
 
 <details>
-  <summary>Output</summary>
+  <summary>Click Me</summary>
 
   >เเล้วเราจะทำยังให้มันสามารถใช้งานได้เหมือนกับ่java เฉลยอยู่ block ถัดไป
  
