@@ -81,29 +81,29 @@ puts " value by static method : #{A.get}"
 >
 เราลองมาใช้ static meber ใน Java
 #### Java
-```Ruby
-class A {
+```java
+        class A {
 
-    private static int num = 0;// ตัวแปร class variable เริ่มต้นที่ 0
+            private static int num = 0;// ตัวแปร class variable เริ่มต้นที่ 0
 
-    public static int get() {
-        return num; //คืนค่าของ num
-    }
+            public static int get() {
+                return num; //คืนค่าของ num
+            }
 
-    
-    public void set() {
-        num = num + 1;
-    }
-}
+            
+            public void set() {
+                num = num + 1;
+            }
+        }
 
-public class Main {
-    public static void main(String[] args) {
-        A b = new A();  
-        b.set();        
+        public class Main {
+            public static void main(String[] args) {
+                A b = new A();  
+                b.set();        
 
-        System.out.println("value by static method : " + A.get());
-    }
-}
+                System.out.println("value by static method : " + A.get());
+            }
+        }
 ```
 <details>
   <summary>Output</summary>
