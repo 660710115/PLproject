@@ -6,15 +6,16 @@
  > กำหนดให้ class A เป็นคลาสที่มีตัวแปร static num มีค่าเป็น 0  จากนั้นเราสร้าง object b และ c ดังนั่น  b และcใช้ตัวแปร num ร่วมกัน
 
 ![Local Image](picture/diagram.jpg)
-
-
-
-
-
+>
+>
 static ในแต่ละภาษาก็จะมีความแตกต่างกัน เช่นในภาษา C กับjava จะมี keywordในการบอกว่าเป็นstatic โดยใช้ “static” นำหน้าชื่อเมธอดหรือชื่อตัวแปร 
 แต่ในภาษา Python และ Ruby ไม่มี keyword 
 เราจะเรียนรู้เกี่ยวกับ static member ในภาษา Ruby กันซึ่ง static member จะมี 2 แบบ คือ
 
+### 1.	Static variable 
+คลาสที่มีตัวแปรโดยทั่วไปจะเป็นตัวแปรของคลาส จะถูกเรียกว่า static variable เมื่อ static variable ถูกประกาศเป็น static พื้นที่สำหรับมันถูกแบ่งไว้สำหรับ lifetime ของโปรแกรม การตั้งชื่อตัวแปรของคลาสจะขึ้นต้นด้วย @@
+>
+>
 ```Ruby
 class A
   @@num = 0   # ตัวแปร class variable เริ่มต้นที่ 0
