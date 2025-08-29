@@ -257,7 +257,9 @@ int main() {
     def self.get
         @@num      # คืนค่าของ @@num
     end
-
+    def get
+        @@num      # คืนค่าของ @@num
+    end
     def set
         @@num = @@num + 1   # เพิ่มค่า @@num ทีละ 1
     end
