@@ -202,14 +202,15 @@ int main() {
         }
 ```
 
+
+
 <details>
   <summary>Output</summary>
 
-> value by static method : 1 
-> value by b  : 1>
+  > value by static method : 1 
+  > value by b  : 1>  
 
 </details>
-
 >
 >
 > เราลองมาใช้กับ Ruby
