@@ -40,6 +40,6 @@ puts  b.get
 <details>
   <summary>Output</summary>
   1
-  1`
+  1
 
 </details>
