@@ -205,8 +205,8 @@ int main() {
 <details>
   <summary>Output</summary>
 
-  > value by static method : 1 
-  > value by b  : 1>
+> value by static method : 1 
+> value by b  : 1>
 
 </details>
 
@@ -242,7 +242,7 @@ int main() {
 
 <details>
   <summary>Click me</summary>
-  > เเล้วเราจะทำยังให้มันสามารถใช้งานได้เหมือนกับ่java เฉลยอยู่ block ถัดไป
+> เเล้วเราจะทำยังให้มันสามารถใช้งานได้เหมือนกับ่java เฉลยอยู่ block ถัดไป
 
 </details>
 
@@ -267,7 +267,7 @@ int main() {
 <details>
   <summary>Output</summary>
 
-  > value by static method : 1 
-  > value by b  : 1>
+> value by static method : 1 
+> value by b  : 1>
 
 </details>
