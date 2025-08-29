@@ -57,7 +57,7 @@ class A
   @@num = 0   # ตัวแปร class variable เริ่มต้นที่ 0
 
   def self.get
-    @@num      # คืนค่าของ @@num
+    @@num      # 
   end
 
   def set
@@ -75,7 +75,39 @@ puts " value by static method : #{A.get}"
   > value by static method : 1 
 
 </details>
->
->
 ผลลัพธ์ที่ออกมาตรงกับconcept ของ static method คือสามารถเรียกใช้เมธอดผ่านคลาสได้ ในตัวอย่างคือเรียกใช้เมธอดผ่าน คลาสA เเละจะเห็นว่าเราอัพเดทค่าของ
 คลาสผ่าน b จึ่งทำให้ output มีค่าเป็น 1 ดังตัวอย่าง
+>
+>
+เราลองมาใช้ static meber ใน Java
+#### Java
+```Ruby
+class A {
+
+    private static int num = 0;// ตัวแปร class variable เริ่มต้นที่ 0
+
+    public static int get() {
+        return num; //คืนค่าของ num
+    }
+
+    
+    public void set() {
+        num = num + 1;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        A b = new A();  
+        b.set();        
+
+        System.out.println("value by static method : " + A.get());
+    }
+}
+```
+<details>
+  <summary>Output</summary>
+
+  > value by static method : 1 
+
+</details>
