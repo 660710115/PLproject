@@ -205,8 +205,8 @@ int main() {
 <details>
   <summary>Output</summary>
 
-  > c value: 1  
-  > b value: 1  
+  > value by static method :  1  
+  > value by b  :  1  
 
 </details>
 
