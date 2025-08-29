@@ -33,8 +33,12 @@ puts "b value: #{b.get}"
 ```
 <details>
   <summary>Output</summary>
-    >c value: 1
-    >b value: 1
+
+  > c value: 1  
+  > b value: 1  
 
 </details>
+
+> c value: 1  
+> b value: 1 SEPARATE LINE
 
