@@ -107,8 +107,6 @@ puts " value by static method : #{A.get}"
   > value by static method : 1 
 
 </details>
->
->
 
 ### Python
 ```python
@@ -171,5 +169,105 @@ int main() {
   <summary>Output</summary>
 
   > value by static method : 1 
+
+</details>
+
+
+#####  เราลองเรียก static method ผ่าน object 
+
+### Java
+```java
+       class A {
+
+            private static int num = 0;// ตัวแปร class variable เริ่มต้นที่ 0
+
+            public static int get() {
+                return num; //คืนค่าของ num
+            }
+
+            
+            public void set() {
+                num = num + 1;
+            }
+        }
+
+        public class Main {
+            public static void main(String[] args) {
+                A b = new A();  
+                b.set();        
+
+                System.out.println("value by static method : " + A.get());
+                System.out.println("value by b  : " + b.get());
+            }
+        }
+```
+
+<details>
+  <summary>Output</summary>
+
+  > value by static method : 1 
+  > value by b  : 1>
+
+</details>
+
+>
+>
+> เราลองมาใช้กับ Ruby
+```Ruby
+    class A
+    @@num = 0   # ตัวแปร class variable เริ่มต้นที่ 0
+
+    def self.get
+        @@num      # คืนค่าของ @@num
+    end
+
+    def set
+        @@num = @@num + 1   # เพิ่มค่า @@num ทีละ 1
+    end
+    end
+    b=A.new 
+    b.set
+    puts " value by static method : #{A.get}"
+    puts "value by b : #{b.get}"
+```
+
+<details>
+  <summary>Output</summary>
+
+  > Error จร้าาาาาาาาาาา
+
+</details>
+>
+> 
+
+<details>
+  <summary>Click me</summary>
+  > เเล้วเราจะทำยังให้มันสามารถใช้งานได้เหมือนกับ่java เฉลยอยู่ block ถัดไป
+
+</details>
+
+```Ruby
+    class A
+    @@num = 0   # ตัวแปร class variable เริ่มต้นที่ 0
+
+    def self.get
+        @@num      # คืนค่าของ @@num
+    end
+
+    def set
+        @@num = @@num + 1   # เพิ่มค่า @@num ทีละ 1
+    end
+    end
+    b=A.new 
+    b.set
+    puts " value by static method : #{A.get}"
+    puts "value by b : #{b.get}"
+```
+
+<details>
+  <summary>Output</summary>
+
+  > value by static method : 1 
+  > value by b  : 1>
 
 </details>
