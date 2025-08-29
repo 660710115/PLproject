@@ -234,15 +234,18 @@ int main() {
 <details>
   <summary>Output</summary>
 
-  > Error จร้าาาาาาาาาาา
+  > Error จร้าาา
+  
 
 </details>
 >
 > 
 
 <details>
-  <summary>Click me</summary>
-> เเล้วเราจะทำยังให้มันสามารถใช้งานได้เหมือนกับ่java เฉลยอยู่ block ถัดไป
+  <summary>Output</summary>
+
+  >เเล้วเราจะทำยังให้มันสามารถใช้งานได้เหมือนกับ่java เฉลยอยู่ block ถัดไป
+ 
 
 </details>
 
@@ -267,7 +270,7 @@ int main() {
 <details>
   <summary>Output</summary>
 
-  > c value: 1  
-  > b value: 1  
+  > value by static method :  1  
+  > value by b  :  1  
 
 </details>
