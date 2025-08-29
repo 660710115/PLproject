@@ -69,12 +69,7 @@ b.set
 puts " value by static method : #{A.get}"
  
 ```
-<details>
-  <summary>Output</summary>
 
-  > value by static method : 1 
-
-</details>
 ผลลัพธ์ที่ออกมาตรงกับconcept ของ static method คือสามารถเรียกใช้เมธอดผ่านคลาสได้ ในตัวอย่างคือเรียกใช้เมธอดผ่าน คลาสA เเละจะเห็นว่าเราอัพเดทค่าของ
 คลาสผ่าน b จึ่งทำให้ output มีค่าเป็น 1 ดังตัวอย่าง
 >
@@ -105,6 +100,7 @@ puts " value by static method : #{A.get}"
             }
         }
 ```
+
 <details>
   <summary>Output</summary>
 
