@@ -295,8 +295,7 @@ get ที่เกิดจาก self.get เป็น classs method ที่
 
 คูเปอร์, พี. (2016). Beginning Ruby: From novice to professional (พิมพ์ครั้งที่ 3, น. 113–115). เอเพรส. https://doi.org/10.1007/978-1-4842-1278-3
 >
-ฟลานาแกน, ดี., และ มัตซึโมโตะ, ย. (2008). The Ruby programming language (น. 230–232). โอ’ไรลีย์ มีเดีย https://github.com/maniramakumar/the-best-ruby-books/blob/master/books/
-The%20Ruby%20Programming%20Language.pdf
+ฟลานาแกน, ดี., และ มัตซึโมโตะ, ย. (2008). The Ruby programming language (น. 230–232). โอ’ไรลีย์ มีเดีย https://github.com/maniramakumar/the-best-ruby-books/blob/master/books/The%20Ruby%20Programming%20Language.pdf
 >
 Ruby Reference. (n.d.). Variables and Constants. สืบค้นเมื่อ 29 สิงหาคม 2025, จาก Ruby Reference: https://rubyreferences.github.io/rubyref/language/variables-constants.html
 >
