@@ -287,7 +287,7 @@ int main() {
 </details>
 
 จากตัวอย่างของตัวอย่างโค้ดจะเห็นว่าใน class A มี method ที่มีชื่อเหมือนกัน 2อันคือ get เเล้วมันต่างกันยังไง
-get ที่เกิดจาก self.get เป็น classs method ที่ต้องเรียกผ่าน class เเละ get ที่ต้องเรียกผ่าน object ถ้าไม่self. 
+get ที่เกิดจาก self.get เป็น classs method ที่ต้องเรียกผ่าน class เเละ get ที่ต้องเรียกผ่าน object ถ้าไม่ self. 
 จะถือว่าเป็น  instace method  อัตโนมัติเป็นที่ต้องเรียกผ่าน object
 
 ***
